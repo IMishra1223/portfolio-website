@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishita Mishra | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Ishita Mishra, Software Engineering student with a passion for Cybersecurity.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">IM<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certifications</a>
+                <a href="resume.pdf" download class="btn btn-outline nav-contact"
+                    style="border-color: var(--accent-color);">Resume <i class="fas fa-download"></i></a>
+                <a href="#contact" class="btn btn-primary nav-contact" style="padding: 0.5rem 1rem;">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <span class="badge">Available for Work</span>
+                    <h1 class="hero-title">Hi, I'm <span class="gradient-text">Ishita Mishra</span>.</h1>
+                    <p class="hero-subtitle">Software Engineering Student & Cybersecurity Enthusiast.</p>
+                    <p class="hero-desc">A Computer Science student passionate about cybersecurity and threat
+                        intelligence. Interested in building tools and exploring technologies that help monitor,
+                        analyze, and prevent cyber threats. 🔐💻</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/IMishra1223" target="_blank" class="btn-icon" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ishita-mishra23" target="_blank" class="btn-icon"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in" style="transition-delay: 0.2s;">
+                    <div class="hero-image-container">
+                        <img src="profile-pic.jpg" alt="Ishita Mishra" class="hero-profile-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text fade-in">
+                        <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">About <span
+                                class="gradient-text">Me</span></h2>
+                        <p>I am a dedicated Computer Science and Engineering student at Lovely Professional University,
+                            driven by a deep fascination with how systems work—and more importantly, how to protect
+                            them.</p>
+                        <p>My journey in tech is fueled by a passion for cybersecurity, threat intelligence, and
+                            building secure, scalable applications. Whether it's analyzing packets in Wireshark,
+                            competing in 24-hour hackathons like "Code-A-Hunt", or engineering AI-driven monitoring
+                            tools, I am always eager to learn and tackle complex challenges.</p>
+                        <p>When I'm not coding or exploring CTFs on TryHackMe, I enjoy collaborating with teams,
+                            problem-solving, and continuous learning to stay ahead in the ever-evolving tech landscape.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <h3><span class="gradient-text">3+</span></h3>
+                                <p>Years of Study</p>
+                            </div>
+                            <div class="highlight-item">
+                                <h3><span class="gradient-text">10+</span></h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="highlight-item">
+                                <h3><span class="gradient-text">5+</span></h3>
+                                <p>Certifications</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual fade-in" style="transition-delay: 0.2s;">
+                        <div class="glass-card about-card">
+                            <div class="terminal-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">guest@ishita: ~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="prompt">$</span> whoami</p>
+                                <p class="output">ishita_mishra</p>
+                                <p><span class="prompt">$</span> cat interests.txt</p>
+                                <p class="output">
+                                    > Cybersecurity<br>
+                                    > Threat Intelligence
+                                </p>
+                                <p><span class="prompt">$</span> ./run_future.sh</p>
+                                <p class="output typing-animation">Building a safer digital world...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Technical <span class="gradient-text">Arsenal</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card fade-in">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card fade-in" style="transition-delay: 0.1s;">
+                        <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card fade-in" style="transition-delay: 0.2s;">
+                        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TryHackMe</span>
+                            <span class="skill-tag">Wireshark</span>
+                            <span class="skill-tag">VMware Workstation</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card fade-in" style="transition-delay: 0.3s;">
+                        <h3><i class="fas fa-brain"></i> Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Problem-Solving</span>
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Featured <span class="gradient-text">Projects</span></h2>
+                <div class="projects-grid">
+
+                    <!-- Project 1 (New: Luxe Store) -->
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <i class="fas fa-shopping-bag project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Luxe Store: Decoupled E-Commerce</h3>
+                        <div class="project-date">Feb 2025</div>
+                        <div class="project-desc">
+                            A robust, fully-featured luxury e-commerce platform built as a decoupled web application. It
+                            features a Django REST APIs backend for secure data management and a Flask frontend for
+                            seamless session-based shopping and checkout experiences.
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django REST</span>
+                            <span>Flask</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in" style="transition-delay: 0.1s;">
+                        <div class="project-header">
+                            <i class="fas fa-shield-alt project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Cyber Incident Feed Monitoring</h3>
+                        <div class="project-date">Dec 2025</div>
+                        <div class="project-desc">
+                            A real-time monitoring tool that collects, analyzes, and visualizes global cybersecurity
+                            incidents. Features automated threat-intelligence aggregation and NLP-based classification
+                            with sentiment scoring and risk-level tagging via machine learning.
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="project-header">
+                            <i class="fas fa-car project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Car Rentals & Reservation System</h3>
+                        <div class="project-date">Feb 2024</div>
+                        <div class="project-desc">
+                            An end-to-end vehicle rental platform providing a seamless experience for customers and
+                            service providers. Features clean architecture, efficient database integration, and
+                            intuitive UI/UX for reserving vehicles online.
+                        </div>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card fade-in" style="transition-delay: 0.3s;">
+                        <div class="project-header">
+                            <i class="fas fa-heartbeat project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Blood Donation Management</h3>
+                        <div class="project-date">Feb 2024</div>
+                        <div class="project-desc">
+                            A system focusing on simplifying the blood donation process by maintaining donor details,
+                            organizing blood groups, and tracking availability. Designed to support hospitals and camps
+                            in quick data retrieval during emergencies.
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Database Handling</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="timeline-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Education <span class="gradient-text">Journey</span></h2>
+
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <!-- Edu 1 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Aug 2023 - Present</span>
+                                    <span>CGPA: 6.5</span>
+                                </div>
+                                <h3 class="timeline-title">Lovely Professional University</h3>
+                                <p class="timeline-subtitle">B.Tech - Computer Science and Engineering</p>
+                                <p class="timeline-details">Leading academic pursuit in Punjab, India. Engaged in
+                                    foundational and advanced concepts of computing.</p>
+                            </div>
+                        </div>
+
+                        <!-- Edu 2 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Apr 2021 - Mar 2022</span>
+                                    <span>60.2%</span>
+                                </div>
+                                <h3 class="timeline-title">Shri Guru Ram Rai Public School Hardoi</h3>
+                                <p class="timeline-subtitle">Intermediate Education</p>
+                            </div>
+                        </div>
+
+                        <!-- Edu 3 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Apr 2019 - Mar 2020</span>
+                                    <span>81%</span>
+                                </div>
+                                <h3 class="timeline-title">Shri Guru Ram Rai Public School</h3>
+                                <p class="timeline-subtitle">Matriculation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements -->
+        <section id="certifications" class="timeline-section" style="padding-top: 0;">
+            <div class="container">
+                <h2 class="section-title fade-in">Certifications & <span class="gradient-text">Achievements</span></h2>
+
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <!-- Cert 1 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Aug 2025</span>
+                                    <span>Infosys</span>
+                                </div>
+                                <h3 class="timeline-title">ChatGPT-4 Prompt Engineering</h3>
+                                <p class="timeline-subtitle">Certificate & Generative AI & LLM</p>
+                            </div>
+                        </div>
+
+                        <!-- Cert 2 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Aug 2025</span>
+                                    <span>Infosys</span>
+                                </div>
+                                <h3 class="timeline-title">Generative AI Apps & No-Code Tools</h3>
+                                <p class="timeline-subtitle">Build Generative AI Apps and Solutions</p>
+                            </div>
+                        </div>
+
+                        <!-- Cert 3 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Aug 2025</span>
+                                    <span>Infosys</span>
+                                </div>
+                                <h3 class="timeline-title">Computational Theory</h3>
+                                <p class="timeline-subtitle">Language Principle & Finite Automata Theory</p>
+                            </div>
+                        </div>
+
+                        <!-- Ach 1 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Apr 2024</span>
+                                    <span>LPU</span>
+                                </div>
+                                <h3 class="timeline-title">Symposium Cyber Security Event</h3>
+                                <p class="timeline-subtitle">Achievement: 3 Days Participation</p>
+                            </div>
+                        </div>
+
+                        <!-- Ach 2 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Mar 2024</span>
+                                    <span>LPU</span>
+                                </div>
+                                <h3 class="timeline-title">"Code-A-Hunt" 24-Hours Hackathon</h3>
+                                <p class="timeline-subtitle">Achievement: Top 10 among 200 participants</p>
+                            </div>
+                        </div>
+
+                        <!-- Cert 4 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Feb 2024</span>
+                                    <span>BOORD</span>
+                                </div>
+                                <h3 class="timeline-title">Microlearning in Full Stack Development</h3>
+                                <p class="timeline-subtitle">Certificate</p>
+                            </div>
+                        </div>
+
+                        <!-- Cert 5 -->
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">
+                                    <span>Feb 2024</span>
+                                    <span>Let's Upgrade</span>
+                                </div>
+                                <h3 class="timeline-title">HTML & CSS Zero to Hero in 3 Days</h3>
+                                <p class="timeline-subtitle">Certificate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2 class="section-title fade-in">Let's <span class="gradient-text">Connect</span></h2>
+            <div class="contact-content fade-in">
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
+                    try my best to get back to you!</p>
+                <div class="social-links">
+                    <a href="mailto:ishitamishra1223@gmail.com" class="btn-icon" title="Email"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/ishita-mishra23" target="_blank" class="btn-icon"
+                        title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/IMishra1223" target="_blank" class="btn-icon" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="tel:+919569261312" class="btn-icon" title="Phone"><i class="fas fa-phone-alt"></i></a>
+                </div>
+                <a href="mailto:ishitamishra1223@gmail.com" class="btn btn-primary">Say Hello <i
+                        class="fas fa-paper-plane"></i></a>
+            </div>
+            <div class="copyright fade-in">
+                <p>&copy; 2026 Ishita Mishra. Built with modern web craft.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
